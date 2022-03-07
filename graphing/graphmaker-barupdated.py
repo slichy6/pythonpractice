@@ -26,10 +26,9 @@ def main():
 
     # display the graph
     # plt.show() # you can try this on a Python IDE with a GUI if you'd like
-    plt.savefig("/home/student/pythonpractice/graphing/2018summary.png")
+    plt.savefig("/home/student/pythonpractice/graphing/2018summary.pdf")
     # save a copy to "~/static" (the "files" view)
-    plt.savefig("/home/student/static/2018summary.png")
-
+    plt.savefig("/home/student/static/2018summary.pdf")
 
 if __name__ == "__main__":
     main()
